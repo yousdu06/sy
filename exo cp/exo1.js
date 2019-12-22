@@ -15,7 +15,7 @@ for (var i in tab) {
 
 
 var inco = document.getElementById(sol);
-inco.innerHTML = '<input type="number" id="res">';
+inco.innerHTML = '<input id="res">';
 
 function verification() {
 
