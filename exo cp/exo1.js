@@ -24,7 +24,9 @@ function verification() {
     if (sol == q.value) {
         alert("BRAVO");
     }
+
     else (
-        alert("mauvaise reponse t'es trop mauvais sal merde ")
-        )
+        alert("mauvaise reponse")
+    )
+
 }

@@ -28,7 +28,7 @@ function verification() {
     for (var i = 0; i <= 18; i = i + 2) {
 
         var r = document.getElementById(21 + (i / 2));
-        alert(r.value)
+        
         if (tab[i] - tab[i + 1] == r.value) {
             res = res + 1;
             r.style.backgroundColor = "green";
